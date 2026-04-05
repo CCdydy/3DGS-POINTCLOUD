@@ -1,0 +1,37 @@
+# Mind Map
+
+这个目录用于集中存放项目的调研材料、阶段性总结和研究定位草稿。
+
+## 文档索引
+
+### [compass_artifact_学术调查.md](compass_artifact_学术调查.md)
+
+- 类型：系统调研 + 可复现实验路线
+- 语言：英文正文，中文文件名
+- 作用：梳理 LiDAR 压缩、自动驾驶 3DGS、3DGS 压缩三条研究线，整理 baseline、数据集、依赖和实验切入点
+- 适合场景：开题、文献梳理、确定 baseline、制定复现顺序
+
+### [复现后工作.md](复现后工作.md)
+
+- 类型：研究定位与问题定义草稿
+- 语言：英文正文，中文文件名
+- 作用：从论文切入角度概括研究 gap、最接近工作、风险评估和论文入口
+- 适合场景：写 proposal、写 paper intro、整理 research pitch
+
+## 与其他文档的关系
+
+- 根目录 [README.md](../README.md)
+  - 项目入口，说明仓库结构和主要目录
+- 根目录 [REPRODUCE.md](../REPRODUCE.md)
+  - 偏执行层，描述环境、数据、脚本、实验步骤
+- 本目录文档
+  - 偏研究记录层，负责“为什么做、做到哪里、怎么讲清楚”
+
+## 当前建议
+
+如果目标是继续推进实验，建议阅读顺序：
+
+1. [README.md](../README.md)
+2. [REPRODUCE.md](../REPRODUCE.md)
+3. [compass_artifact_学术调查.md](compass_artifact_学术调查.md)
+4. [复现后工作.md](复现后工作.md)

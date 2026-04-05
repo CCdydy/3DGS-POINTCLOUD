@@ -12,7 +12,7 @@
 - `tools/`: 数据转换、批量实验、结果绘图脚本
 - `REPRODUCE.md`: 端到端复现流程
 - `mind_map/compass_artifact_学术调查.md`: 方向调研与论文对比
-- `mind_map/复现后工作.md`: 当前阶段复现工作总结
+- `mind_map/复现后工作.md`: 研究定位与阶段性总结草稿
 
 ## 克隆
 
@@ -59,6 +59,10 @@ git submodule update --init --recursive
 ## 工具脚本
 
 常用脚本汇总见 [tools/README.md](tools/README.md)。
+
+## 研究记录
+
+`mind_map/` 下的文档索引见 [mind_map/README.md](mind_map/README.md)。
 
 ## 数据与结果
 
