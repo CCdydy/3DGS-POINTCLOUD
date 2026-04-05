@@ -1,6 +1,7 @@
 # Local datasets and experiment outputs
 /data/
 /results/
+/outputs/
 
 # Python
 __pycache__/

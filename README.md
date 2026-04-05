@@ -40,11 +40,32 @@ git submodule update --init --recursive
 
 大体实验流程见 [REPRODUCE.md](REPRODUCE.md)。
 
+## 目录概览
+
+```text
+3DGS-POINTCLOUD/
+├── README.md
+├── REPRODUCE.md
+├── mind_map/
+├── tools/
+├── data/             # 本地数据
+├── results/          # 本地评估与可视化结果
+├── outputs/          # 本地训练输出
+├── RENO/             # 子模块
+├── neurad-studio/    # 子模块
+└── torchsparse/      # 子模块
+```
+
+## 工具脚本
+
+常用脚本汇总见 [tools/README.md](tools/README.md)。
+
 ## 数据与结果
 
 以下目录默认不纳入版本控制：
 
 - `data/`
 - `results/`
+- `outputs/`
 
 请将原始数据集、解码结果、训练输出和评估结果放在这些目录下。
