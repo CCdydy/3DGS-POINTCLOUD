@@ -1,0 +1,9 @@
+[submodule "RENO"]
+	path = RENO
+	url = https://github.com/NJUVISION/RENO.git
+[submodule "neurad-studio"]
+	path = neurad-studio
+	url = https://github.com/georghess/neurad-studio.git
+[submodule "torchsparse"]
+	path = torchsparse
+	url = https://github.com/mit-han-lab/torchsparse.git
