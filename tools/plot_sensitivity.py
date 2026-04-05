@@ -97,14 +97,14 @@ if __name__ == "__main__":
     parser.add_argument("--output", default="results/sensitivity_curve.pdf", help="Output figure path")
     args = parser.parse_args()
 
-    # Geometry results: 填入实际 RENO 运行后的测量值
-    # 这里是占位值 - 运行 RENO sweep 后用实际数据替换
+    # Geometry results from RENO KITTI smoke test (2026-04-05)
+    # Replace with PandaSet results when available
     geometry_results = {
-        8:   {"bpp": 5.0,  "d1_psnr": 78.0},   # finest
-        16:  {"bpp": 4.05, "d1_psnr": 75.8},   # default (14-bit)
-        32:  {"bpp": 2.53, "d1_psnr": 65.3},
-        64:  {"bpp": 1.52, "d1_psnr": 55.2},   # ~12-bit
-        128: {"bpp": 0.90, "d1_psnr": 45.0},   # coarsest
+        8:   {"bpp": 9.644, "d1_psnr": 88.12},   # finest
+        16:  {"bpp": 7.049, "d1_psnr": 82.20},   # default (14-bit)
+        32:  {"bpp": 4.555, "d1_psnr": 76.22},
+        64:  {"bpp": 2.552, "d1_psnr": 70.18},   # ~12-bit
+        128: {"bpp": 1.293, "d1_psnr": 64.18},   # coarsest
     }
 
     posq_values = [8, 16, 32, 64, 128]
