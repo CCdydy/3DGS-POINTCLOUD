@@ -4,6 +4,13 @@
 
 ## 文档索引
 
+### [当前进展总览.md](当前进展总览.md)
+
+- 类型：中文总览页
+- 语言：中文
+- 作用：快速说明当前项目结构、文档分工、已整理内容和推荐阅读顺序
+- 适合场景：重新接手项目、快速回顾当前状态、给别人解释仓库结构
+
 ### [compass_artifact_学术调查.md](compass_artifact_学术调查.md)
 
 - 类型：系统调研 + 可复现实验路线
@@ -33,5 +40,6 @@
 
 1. [README.md](../README.md)
 2. [REPRODUCE.md](../REPRODUCE.md)
-3. [compass_artifact_学术调查.md](compass_artifact_学术调查.md)
-4. [复现后工作.md](复现后工作.md)
+3. [当前进展总览.md](当前进展总览.md)
+4. [compass_artifact_学术调查.md](compass_artifact_学术调查.md)
+5. [复现后工作.md](复现后工作.md)

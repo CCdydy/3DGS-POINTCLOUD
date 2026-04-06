@@ -63,6 +63,7 @@ git submodule update --init --recursive
 ## 研究记录
 
 `mind_map/` 下的文档索引见 [mind_map/README.md](mind_map/README.md)。
+快速总览见 [mind_map/当前进展总览.md](mind_map/当前进展总览.md)。
 
 ## 数据与结果
 
