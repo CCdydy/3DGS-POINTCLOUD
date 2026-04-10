@@ -49,6 +49,10 @@ def inject_lidar(original_scene: str, decoded_ply_dir: str, output_scene: str):
     lidar_dst.mkdir()
     lidar_src = src / "lidar"
 
+    # 复制 lidar 目录中的非点云文件（poses.json, timestamps.json 等）
+    for meta_file in lidar_src.glob("*.json"):
+        shutil.copy2(meta_file, lidar_dst / meta_file.name)
+
     for orig_pkl in sorted(lidar_src.glob("*.pkl.gz")):
         frame_id = orig_pkl.stem.split(".")[0]  # "00.pkl" -> "00"
 
